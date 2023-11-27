@@ -1,4 +1,3 @@
-time
 requests
 python-telegram-bot
 python-dotenv
