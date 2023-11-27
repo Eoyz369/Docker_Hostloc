@@ -7,7 +7,7 @@ import telegram
 from telegram import InputMediaPhoto
 
 # 从.env文件中读取配置
-config = dotenv_values("/hostlot/.env")
+config = dotenv_values("/opt/hostloc/.env")
 
 # Telegram Bot 的 API Token
 TOKEN = config["BOT_TOKEN"]
