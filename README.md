@@ -1,6 +1,5 @@
 ## Docker_Hostloc
-The `hostloc new post pusher` running on `docker`   
-在 `docker` 上运行的 `hostloc新帖推送机`
+The `hostloc新帖推送机` running on `docker`   
 
 ### Usage
 
