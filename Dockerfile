@@ -11,4 +11,4 @@ ADD . /hostloc
 RUN pip install --no-cache-dir -r requirements.txt
 
 # 设置容器启动时执行的命令，这里是运行main.py文件
-CMD ["python", "main.py"]
+CMD ["python", "/src/main.py"]
