@@ -17,7 +17,7 @@ TOKEN = config["BOT_TOKEN"]
 # Telegram Channel 的 ID
 # CHANNEL_ID为简洁模式，CHANNEL_ID_2为完整推送
 CHANNEL_ID = config["CHANNEL_ID"]
-CHANNEL_ID_2 = config["CHANNEL_ID"]
+CHANNEL_ID_2 = config["CHANNEL_ID_2"]
 
 
 bot = telegram.Bot(token=TOKEN)
