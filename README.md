@@ -1,5 +1,6 @@
 ## Docker_Hostloc
-Main code from `hostloc新帖推送机`
+The `hostloc new post pusher` running on `docker`   
+在 `docker` 上运行的 `hostloc新帖推送机`
 
 ### Usage
 
@@ -13,9 +14,13 @@ CHANNEL_ID=-10000000000
 CHANNEL_ID_2=-20000000000
 ```
 
-#### one-click run
+#### One-click run
+##### AMD Machines
 ```
 docker run --env TZ=Asia/Shanghai -d --name hostlocBOT -v /Eoyz369/hostloc/.env://Eoyz369/hostloc/.env eoyz369/hostloc:amd64
+```
+##### ARM Machines
+```
 docker run --env TZ=Asia/Shanghai -d --name hostlocBOT -v /Eoyz369/hostloc/.env://Eoyz369/hostloc/.env eoyz369/hostloc:arm64
 ```
 
