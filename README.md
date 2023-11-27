@@ -3,7 +3,7 @@ Main code from `hostloc新帖推送机`
 
 ### Usage
 
-#### Create a new `.env` file in `/opt/hostloc/.env`, edit the following and save it
+#### Create a new `.env` file in `/opt/hostloc/`, edit the following and save it
 ```
 # API Token for Telegram Bot
 # The ID of the Telegram Channel
