@@ -2,20 +2,17 @@
 
 import requests
 import time
-from urllib import parse
+from dotenv import dotenv_values
 import telegram
 from telegram import InputMediaPhoto
-from dotenv import dotenv_values
 
 # 从.env文件中读取配置
-config = dotenv_values("/opt/hostloc/.env")
+config = dotenv_values("/app/.env")
 
-# CHANNEL_ID为简洁模式，CHANNEL_ID_2为完整推送
 # Telegram Bot 的 API Token
-
 TOKEN = config["BOT_TOKEN"]
+
 # Telegram Channel 的 ID
-# CHANNEL_ID为简洁模式，CHANNEL_ID_2为完整推送
 CHANNEL_ID = config["CHANNEL_ID"]
 CHANNEL_ID_2 = config["CHANNEL_ID_2"]
 
