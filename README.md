@@ -15,8 +15,8 @@ CHANNEL_ID_2=-20000000000
 
 #### one-click run
 ```
-docker run -d --name hostlocBOT -v /opt/hostloc/.env://opt/hostloc/.env -it eoyz369/hostloc:amd64
-docker run -d --name hostlocBOT -v /opt/hostloc/.env://opt/hostloc/.env -it eoyz369/hostloc:arm64
+docker run --env TZ=Asia/Shanghai -d --name hostlocBOT -v /opt/hostloc/.env://opt/hostloc/.env eoyz369/hostloc:amd64
+docker run --env TZ=Asia/Shanghai -d --name hostlocBOT -v /opt/hostloc/.env://opt/hostloc/.env eoyz369/hostloc:arm64
 ```
 
 ## license
