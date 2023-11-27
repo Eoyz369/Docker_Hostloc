@@ -7,18 +7,14 @@ import telegram
 from telegram import InputMediaPhoto
 
 # 从.env文件中读取配置
-config = dotenv_values("/opt/hostloc/.env")
-
-# Telegram Bot 的 API Token
+config = dotenv_values("/Eoyz369/hostloc/.env")
 TOKEN = config["BOT_TOKEN"]
-
-# Telegram Channel 的 ID
 CHANNEL_ID = config["CHANNEL_ID"]
 CHANNEL_ID_2 = config["CHANNEL_ID_2"]
-
-
 bot = telegram.Bot(token=TOKEN)
 
+# @open source:  [hostloc2tg](https://github.com/w2r/hostloc2tg) 
+# @license: Apache-2.0 license
 
 hostloc_list = ["1", "2", "3", "4", "5", "6"]
 hostloc_title = ["1", "2", "3", "4", "5", "6"]
