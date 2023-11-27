@@ -5,11 +5,13 @@
 #### 新建`.env`文件，编辑以下内容并保存
 ```
 # Telegram Bot 的 API Token
-TOKEN = config["BOT_TOKEN"]
+BOT_TOKEN=123456789:ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
 # Telegram Channel 的 ID
 # CHANNEL_ID为简洁模式，CHANNEL_ID_2为完整推送
-CHANNEL_ID = config["CHANNEL_ID"]
-CHANNEL_ID_2 = config["CHANNEL_ID"]
+CHANNEL_ID=-10000000000
+CHANNEL_ID2=-10000000000
+TOKEN = config["BOT_TOKEN"]
 ```
 #### 拉取镜像
 ```
