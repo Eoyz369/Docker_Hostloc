@@ -5,6 +5,7 @@ import time
 from urllib import parse
 import telegram
 from telegram import InputMediaPhoto
+from dotenv import dotenv_values
 
 # 从.env文件中读取配置
 config = dotenv_values("/opt/hostloc/.env")
