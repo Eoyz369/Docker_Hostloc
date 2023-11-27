@@ -1,5 +1,4 @@
 time
 requests
-parse
-python-dotenv
 python-telegram-bot
+python-dotenv
