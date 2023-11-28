@@ -7,7 +7,7 @@ The `hostloc新帖推送机` running on `docker`
 ```
 # API Token for Telegram Bot
 # The ID of the Telegram Channel
-# CHANNEL_ID for concise mode, CHANNEL_ID_2 for full push
+# CHANNEL_ID for full push, CHANNEL_ID_2 for concise mode
 BOT_TOKEN=123456789:ABCDEFGHIJKLMNOPQRSTUVWXYZ
 CHANNEL_ID=-10000000000
 CHANNEL_ID_2=-20000000000
