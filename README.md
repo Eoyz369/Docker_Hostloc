@@ -28,7 +28,7 @@ docker run --env TZ=Asia/Shanghai -d --name hostlocBOT -v /Eoyz369/hostloc/.env:
 ## Docker hub 
 https://hub.docker.com/r/eoyz369/hostloc   
 
-## License   
+## license   
 ![GitHub](https://img.shields.io/github/license/Eoyz369/Docker_Hostloc) 
 ![GitHub](https://img.shields.io/github/license/w2r/hostloc2tg)
 
