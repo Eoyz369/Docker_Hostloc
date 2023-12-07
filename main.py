@@ -7,7 +7,7 @@ import telegram
 from telegram import InputMediaPhoto
 
 # 从.env文件中读取配置
-config = dotenv_values("/Eoyz369/hostloc/.env")
+config = dotenv_values("/eoyz369/docker/hostloc/.env")
 TOKEN = config["BOT_TOKEN"]
 CHANNEL_ID = config["CHANNEL_ID"]
 CHANNEL_ID_2 = config["CHANNEL_ID_2"]
