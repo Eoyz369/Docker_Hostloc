@@ -3,7 +3,7 @@ The `hostloc新帖推送机` running on `docker`
 
 ## Usage
 
-### Create a new `.env` file in `/Eoyz369/hostloc/`, edit the following and save it
+### Create a new `.env` file in `/eoyz369/docker/hostloc/`, edit the following and save it
 ```
 # API Token for Telegram Bot
 # The ID of the Telegram Channel
