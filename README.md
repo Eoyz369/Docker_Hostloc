@@ -16,11 +16,11 @@ CHANNEL_ID_2=-20000000000
 ### One-click run
 #### AMD Machines
 ```
-docker run --env TZ=Asia/Shanghai -d --name hostlocBOT -v /Eoyz369/hostloc/.env://Eoyz369/hostloc/.env eoyz369/hostloc:amd64
+docker run --env TZ=Asia/Shanghai -d --name hostloc-view -v /eoyz369/docker/hostloc/.env:/eoyz369/docker/hostloc/.env eoyz369/hostloc:amd64
 ```
 #### ARM Machines
 ```
-docker run --env TZ=Asia/Shanghai -d --name hostlocBOT -v /Eoyz369/hostloc/.env://Eoyz369/hostloc/.env eoyz369/hostloc:arm64
+docker run --env TZ=Asia/Shanghai -d --name hostloc-view -v /eoyz369/docker/hostloc/.env:/eoyz369/docker/hostloc/.env eoyz369/hostloc:arm64
 ```
 ## Open source
  [hostloc2tg](https://github.com/w2r/hostloc2tg)    
